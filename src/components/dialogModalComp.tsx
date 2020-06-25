@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { DialogModal, Button } from "radiance-ui";
 
-const DialogModalExamples = (): JSX.Element => {
+const DialogModalComp = (): JSX.Element => {
   const [openModal, setOpenModal] = useState(false);
 
   return (
@@ -36,4 +36,4 @@ const DialogModalExamples = (): JSX.Element => {
   );
 };
 
-export default DialogModalExamples;
+export default DialogModalComp;

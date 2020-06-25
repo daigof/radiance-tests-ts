@@ -1,7 +1,10 @@
 import React from "react";
-import DialogModalExamples from "./components/dialogModal";
-// import Modals from "./components/modals";
-// import RadianceComp from "./components/radianceComp";
+import ConstantsComp from "./components/constantsComp";
+// import AccordionComp from "./components/accordionComp";
+// import CheckboxComp from "./components/checkboxComp";
+// import DialogModalComp from "./components/dialogModalComp";
+// import ImmersiveModalComp from "./components/immersiveModalComp";
+// import TooltipComp from "./components/tooltipComp";
 import { Global } from "@emotion/core";
 
 import {
@@ -14,9 +17,12 @@ const App: React.FC = () => {
     <div>
       <Global styles={resetStyles} />
       <Global styles={brandStyles} />
-      {/* <RadianceComp /> */}
-      {/* <Modals /> */}
-      <DialogModalExamples />
+      <ConstantsComp />
+      {/* <AccordionComp />
+      <CheckboxComp />
+      <DialogModalComp />
+      <ImmersiveModalComp />
+      <TooltipComp /> */}
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { ImmersiveModal, Button } from "radiance-ui";
 
 import headerImage from "./headerImage.jpg";
 
-const Modals = (): JSX.Element => {
+const ImmersiveModalComp = (): JSX.Element => {
   const [defaultIsOpen, setDefaultIsOpen] = useState(false);
   const [headerImageIsOpen, setheaderImageIsOpen] = useState(false);
 
@@ -146,4 +146,4 @@ const Modals = (): JSX.Element => {
   );
 };
 
-export default Modals;
+export default ImmersiveModalComp;
