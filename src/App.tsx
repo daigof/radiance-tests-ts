@@ -1,5 +1,9 @@
 import React from "react";
-import ConstantsComp from "./components/constantsComp";
+// import ConstantsComp from "./components/constantsComp";
+// import RoundButtonComp from "./components/roundButtonComp";
+import LinkButtonComp from "./components/linkButtonComp";
+// import TextButtonComp from "./components/textButtonComp";
+// import ButtonComp from "./components/buttonComp";
 // import AccordionComp from "./components/accordionComp";
 // import CheckboxComp from "./components/checkboxComp";
 // import DialogModalComp from "./components/dialogModalComp";
@@ -17,7 +21,11 @@ const App: React.FC = () => {
     <div>
       <Global styles={resetStyles} />
       <Global styles={brandStyles} />
-      <ConstantsComp />
+      {/* <ConstantsComp /> */}
+      <LinkButtonComp />
+      {/* <TextButtonComp /> */}
+      {/* <RoundButtonComp /> */}
+      {/* <ButtonComp /> */}
       {/* <AccordionComp />
       <CheckboxComp />
       <DialogModalComp />
